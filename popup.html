@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 300px; padding: 0; margin: 0; background: #0f172a; color: white; font-family: 'Segoe UI', sans-serif; }
+    .header { background: #1e293b; padding: 15px; text-align: center; border-bottom: 1px solid #334155; }
+    h3 { margin: 0; color: #38bdf8; }
+    .content { padding: 20px; }
+    .risk-meter { width: 100px; height: 100px; margin: 0 auto 20px; border-radius: 50%; border: 8px solid #334155; display: flex; align-items: center; justify-content: center; flex-direction: column; transition: 0.3s; }
+    .risk-score { font-size: 28px; font-weight: bold; }
+    .audit-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #1e293b; font-size: 14px; }
+    .status-ok { color: #22c55e; font-weight: bold; }
+    .status-warn { color: #ef4444; font-weight: bold; }
+    #site-url { font-size: 11px; color: #94a3b8; word-break: break-all; text-align: center; display: block; margin-bottom: 15px; }
+  </style>
+</head>
+<body>
+  <div class="header"><h3>PhishGuard AI+</h3></div>
+  <div class="content">
+    <div class="risk-meter" id="meter-color">
+      <span class="risk-score" id="risk-val">--</span>
+    </div>
+    <div id="site-url">Loading analysis...</div>
+    <div class="audit-item"><span>SSL Encryption</span><span id="ssl-stat">--</span></div>
+    <div class="audit-item"><span>DNS Integrity</span><span id="dns-stat">--</span></div>
+    <div class="audit-item"><span>ML DNA Analysis</span><span id="ml-stat">--</span></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
