@@ -5,6 +5,12 @@
 [![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)]()
 [![Accuracy](https://img.shields.io/badge/Accuracy-91.4%25-green.svg)]()
 
+## 📺 Video Demo
+[![PhishGuard AI+ Video Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+> **🚀 [Click here to watch the full demo on YouTube](https://www.youtube.com/watch?v=Xi7ybm443SM&t=67s)**
+>
+> *Note: The live system demo begins at **0:48**.*
+
 PhishGuard AI+ is an advanced browser extension that detects phishing attempts in real-time by analyzing the "DNA" of a URL. Unlike traditional filters that rely on outdated blacklists, PhishGuard AI+ uses a **Hierarchical Nested Logic** to identify malicious intent and infrastructure flaws before the user interacts with the page.
 
 ---
