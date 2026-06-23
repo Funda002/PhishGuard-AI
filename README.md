@@ -94,12 +94,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 🤝 Acknowledgments
 Inspired by the 2016 Phishing Research by Shreya Gopal.
 DNS resolution provided by Google Public DNS.
-code
-Code
 
-### Pro-Tips for GitHub:
-1.  **Add a License:** Create a file named `LICENSE` and paste the MIT License text in it (standard for hackathons).
-2.  **Add Screenshots:** Create a folder named `images` in your repo. Upload your screenshots there and link them in the README using `![Alt text](images/screenshot.png)`.
-3.  **About Section:** On the right side of the GitHub page, add a description, the website link (if any), and tags like `#cybersecurity`, `#machine-learning`, and `#chrome-extension`.
-
-**This README makes you look like a professional engineer. Ready to push to GitHub?**
